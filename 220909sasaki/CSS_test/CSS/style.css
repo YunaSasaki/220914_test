@@ -1,0 +1,89 @@
+* {
+  font-family: 'Montserrat', 'Noto Sans JP', sans-serif;
+  line-height: 1.5;
+}
+
+.firstview {
+  height: 400px;
+  width: 100%;
+  background-image: url(../img/firstview.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  color: #fff;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.about,
+.blog {
+  width: 1000px;
+  margin: 60px auto 0 auto;
+}
+
+.about p{
+  margin-top: 40px;
+  text-align: center;
+}
+
+.card__container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.blog__card {
+  width: 300px;
+}
+.blog__card img {
+  width: 100%;
+}
+
+.contact {
+  width: 780px;
+  margin: 60px auto 60px auto;
+}
+.form {
+  margin-top: 30px;
+  width: 100%;
+}
+.form th,
+.form td {
+  padding: 10px 0;
+}
+.form th {
+  text-align: left;
+  width: 250px;
+}
+.form td > input {
+  width: 100%;
+}
+.form td > textarea {
+  width: 100%;
+  height: 200px;
+}
+.form__btn {
+  margin-top: 10px;
+  text-align: center;
+}
+.form-reset,
+.form-submit {
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 0;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.form-reset {
+  background-color: #d3d3d3;
+  margin-right: 20px;
+}
+.form-submit {
+  background-color: #5bc8ac;
+  color: #fff;
+}

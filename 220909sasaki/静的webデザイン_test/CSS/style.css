@@ -1,0 +1,86 @@
+body {
+  font-family: 'Shippori Mincho',serif;
+  line-height: 1.5;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  font-size: 40px;
+  font-family: 'Amatic SC', cursive;
+  color: #55bbbb;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.firstview {
+  position: relative;
+}
+.firstview img {
+  width: 100%;
+}
+.firstview__inner {
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+.firstview h2 {
+  font-size: 40px;
+}
+.firstview h2 .large {
+  font-size: 64px;
+}
+.firstview__txt-layout {
+  margin: 50px 0 30px 30px;
+  display: flex;
+  align-items: center;
+  line-height: 1;
+}
+.firstview .round {
+  background-color: #FF4384;
+  color: #fff;
+  font-size: 24px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+}
+.firstview__txt {
+  margin-left: 20px;
+}
+.firstview p:nth-child(1) {
+  color: #55bbbb;
+  font-size: 18px;
+}
+.firstview p:nth-child(2) {
+  color: #FF4384;
+  font-size: 30px;
+
+}
+.firstview__txt .large {
+  font-size: 50px;
+}
+.firstview .btn {
+  background-color: #FF4384;
+  color: #fff;
+  font-size: 24px;
+  border-radius: 60px;
+  text-align: center;
+  line-height: 100px;
+  padding: 20px 30px;
+  margin-left: 30px;
+  box-shadow: 0 0 15px #FF4384;
+  cursor: pointer;
+}
+
+
+.font {
+  font-family: 'Amatic SC', cursive;
+}
+.green {
+  color: #55bbbb;
+}
+.red {
+  color: #FF4384;
+}
