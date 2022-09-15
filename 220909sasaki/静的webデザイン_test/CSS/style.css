@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  width: 100%;
+  width: 1300px;
   height: 70px;
   font-size: 40px;
   font-family: 'Amatic SC', cursive;
@@ -12,12 +12,16 @@ header {
   display: flex;
   justify-content: flex-end;
 }
+header h1 {
+  margin-right: 50px;
+}
 
 .firstview {
   position: relative;
 }
 .firstview img {
-  width: 100%;
+  width: 1300px;
+  vertical-align: bottom;
 }
 .firstview__inner {
   position: absolute;
@@ -26,6 +30,7 @@ header {
 }
 .firstview h2 {
   font-size: 40px;
+  white-space: nowrap
 }
 .firstview h2 .large {
   font-size: 64px;
@@ -72,6 +77,110 @@ header {
   margin-left: 30px;
   box-shadow: 0 0 15px #FF4384;
   cursor: pointer;
+}
+
+.section01__01 {
+  width: 1300px;
+}
+.section01__01 h3 {
+  width: 100%;
+  background-color: #55bbbb;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  padding: 30px 0;
+}
+.section01__01 .large {
+  font-size: 36px;
+}
+.section01__01 .triangle {
+  width: 0px;
+  height: 0px;
+  border-top:30px solid #55bbbb;
+  border-right: 40px solid transparent;
+  border-left: 40px solid transparent;
+  margin: 0 auto;
+}
+
+.section01-01__content {
+  width: 1000px;
+  margin: 50px auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section01-01__content .list {
+  padding: 50px;
+  margin-left: 30px;
+  height: fit-content;
+  font-size: 24px;
+  color: #55bbbb;
+  border: 1px solid #55bbbb;
+  border-radius: 30px;
+}
+.section01-01__content .list p {
+  border-bottom: 1px solid #55bbbb;
+}
+.section01-01__content .list p::before {
+  content: url(../img/check.svg);
+  margin-right: 10px;
+}
+.section01-01__content .list p:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.section01__02 {
+  width: 1300px;
+  background-color: #55bbbb;
+}
+.section01__02 h3 {
+  padding: 40px 0;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+}
+.section01__02 .large {
+  font-size: 36px;
+}
+
+.section01__03 {
+  width: 1300px;
+}
+.section01-03__wrapper {
+  width: 1000px;
+  margin: 60px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.section01__03 .box-outer {
+  position: relative;
+}
+.section01__03 .point {
+  width: fit-content;
+  background-color: #fff;
+  color: #55bbbb;
+  font-size: 24px;
+  margin-left: 20px;
+  position: absolute;
+  top: -20px;
+}
+.section01__03 .box {
+  border: 1px solid #55bbbb;
+  padding: 10px;
+}
+.section01__03 .pickup {
+  font-size: 24px;
+  margin-top: 20px;
+}
+.section01__03 p {
+  width: 300px;
+  margin-top: 20px;
+}
+
+footer {
+  width: 1300px;
+  margin-top: 70px;
+  text-align: center;
 }
 
 
